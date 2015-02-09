@@ -23,7 +23,7 @@ shinyUI(
       column(3, checkboxGroupInput("mort", label = h3("Incidence or Mortality"), choices = mort, selected = 1)),
       
       column(3, checkboxGroupInput("gender", label = h3("Gender"), choices = genders, selected = 1))
-      ),
+    ),
     
     mainPanel(
       plotOutput("mainPlot")  
